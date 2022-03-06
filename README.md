@@ -18,6 +18,6 @@
 ## Reference
 - [Go: The fundamentals course](https://www.skooldio.com/courses/go-the-fundamentals)
 
-- https://go.dev/doc/effective_go
+- [Effective Go](https://go.dev/doc/effective_go)
 
 
