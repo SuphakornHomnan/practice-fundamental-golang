@@ -1,0 +1,44 @@
+go env (look value env variable)
+
+go clean --cache
+go clean --modcache
+
+// create module
+go mod init <github.com/<github.username>/<name-project>>
+
+// compile
+go run <*.go>
+
+fmt command
+
+fmt.Println()
+fmt.Sprintf()
+
+Testing
+
+name_test.go (assign file name)
+
+go test .
+go test ./... (All tests)
+
+pointer is used for changing state
+
+Array (immutable)
+Slide (mutable) is a pointer! (zero value = nil)  make(ptr,len,cap)
+
+Interface keeps 2 things(address, type of value in address).
+Interface is same like a template.
+
+Defer work before the end of function processing (down->up)
+Defer can make recovery when the program is panic(error).
+
+Goroutine is compaire like go has many workers that can help for working concurrent.
+
+Graceful shutdown stops Goroutine
+sync.WaitGroup is some counter kind.
+
+Race condition multiple goroutine try to access the same data
+
+go run -race file.go
+
+Channel: send/receive data between goroutines
