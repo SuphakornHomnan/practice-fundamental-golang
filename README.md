@@ -15,4 +15,9 @@
     go env
 ```
 
+## Reference
+- [Go: The fundamentals course](https://www.skooldio.com/courses/go-the-fundamentals)
+
+- https://go.dev/doc/effective_go
+
 
